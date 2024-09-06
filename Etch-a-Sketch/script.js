@@ -18,7 +18,7 @@ function createGrid(size) {
 }
 
 function changeGridSize() {
-    const newSize = prompt('Enter the number of squares per side for the new grid (1-64):');
+    const newSize = prompt('Enter the number of squares per side (1-64):');
     const parsedSize = parseInt(newSize);
 
     if (parsedSize && parsedSize >= 1 && parsedSize <= 64) {
